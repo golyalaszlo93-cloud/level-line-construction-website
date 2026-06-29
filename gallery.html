@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Project Gallery | LevelLine Construction LLC</title>
+    <meta name="description" content="Full LevelLine Construction LLC project gallery with interior trim, doors, baseboards, crown molding, stairs, handrails, custom work, and before and after photos.">
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="./index.html#top" aria-label="LevelLine Construction home">
+        <img class="brand-logo" src="./assets/level-line-logo.png" alt="LevelLine Construction LLC logo">
+        <span><strong>LevelLine Construction</strong><small>Project gallery</small></span>
+      </a>
+      <nav aria-label="Main navigation">
+        <a href="./index.html#about">About</a>
+        <a href="./index.html#services">Services</a>
+        <a href="./index.html#portfolio">Showcase</a>
+        <a href="./index.html#contact">Contact</a>
+      </nav>
+      <a class="header-cta" href="./index.html#contact">Request a Quote</a>
+    </header>
+
+    <main>
+      <section class="gallery-hero">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Full project gallery</p>
+          <h1>Every selected project photo, organized without duplicates.</h1>
+          <p>Browse by finish category. Click any image for a larger preview.</p>
+          <div class="hero-actions"><a class="button ghost" href="./index.html#portfolio">Back to Homepage</a><a class="button primary" href="./index.html#contact">Request a Quote</a></div>
+        </div>
+      </section>
+
+      <section class="portfolio-section full-gallery-section">
+        <div class="portfolio-controls" id="portfolio-controls" aria-label="Portfolio categories"></div>
+        <div class="masonry-grid" id="portfolio-grid" data-gallery-mode="full" aria-live="polite"></div>
+      </section>
+    </main>
+
+    <div class="lightbox" id="lightbox" aria-hidden="true">
+      <button class="lightbox-close" type="button" aria-label="Close preview">×</button>
+      <img src="" alt="">
+      <p></p>
+    </div>
+
+    <footer class="site-footer">
+      <div><strong>LevelLine Construction LLC</strong><p>High-end construction and finish carpentry.</p></div>
+      <div><a href="./index.html">Home</a><a href="mailto:info@levellinecarpentry.com">info@levellinecarpentry.com</a><a href="./index.html#contact">Request a Quote</a></div>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
