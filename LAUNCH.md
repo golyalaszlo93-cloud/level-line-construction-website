@@ -4,14 +4,14 @@
 
 - GitHub repo: https://github.com/golyalaszlo93-cloud/level-line-construction-website
 - Temporary live URL: https://golyalaszlo93-cloud.github.io/level-line-construction-website/
-- Intended custom domain: levellinecarpentry.com
-- GitHub Pages custom domain is already configured with CNAME: levellinecarpentry.com
+- Intended custom domain: levelline-construction.com
+- GitHub Pages custom domain is configured with CNAME: levelline-construction.com
 
 ## Domain Purchase
 
 Buy/register:
 
-- levellinecarpentry.com
+- levelline-construction.com
 
 Recommended DNS host:
 
@@ -19,7 +19,7 @@ Recommended DNS host:
 
 ## DNS Records For GitHub Pages
 
-For apex/root domain levellinecarpentry.com:
+For apex/root domain levelline-construction.com:
 
 - A  @  185.199.108.153
 - A  @  185.199.109.153
@@ -41,8 +41,8 @@ For www:
 
 Recommended business email:
 
-- info@levellinecarpentry.com
-- estimates@levellinecarpentry.com
+- info@levelline-construction.com
+- estimates@levelline-construction.com
 
 Google Workspace MX records:
 

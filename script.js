@@ -16,7 +16,7 @@ if (quoteForm) {
       "Message:",
       data.get("message") || ""
     ].join("\n"));
-    window.location.href = "mailto:info@levellinecarpentry.com?subject=" + subject + "&body=" + body;
+    window.location.href = "mailto:info@levelline-construction.com?subject=" + subject + "&body=" + body;
   });
 }
 
