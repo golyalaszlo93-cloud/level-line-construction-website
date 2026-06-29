@@ -2,6 +2,8 @@
 
 - Path: sites/level-line-construction/index.html
 - Purpose: Interior finish trim and carpentry website for Level Line Construction LLC.
+- Live URL: https://golyalaszlo93-cloud.github.io/level-line-construction-website/
+- Intended domain: levellinecarpentry.com
 - Includes: logo-based black/gold/silver luxury design, full-screen hero, autoplay slideshow, about section, services, categorized masonry portfolio, featured projects, why-choose-us cards, testimonials, contact form, SEO metadata, and schema markup.
 - Status: Static prototype. Logo and 186 web-safe gallery images were exported from macOS Photos albums. Confirm service area, phone number, domain, and email provider before launch.
 
