@@ -7,15 +7,16 @@
 - Intended custom domain: levelline-construction.com
 - GitHub Pages custom domain is configured with CNAME: levelline-construction.com
 
-## Domain Purchase
+## Domain
 
-Buy/register:
+Registered domain:
 
 - levelline-construction.com
 
-Recommended DNS host:
+DNS host:
 
-- Cloudflare DNS, or the registrar DNS panel if using Namecheap/GoDaddy.
+- Cloudflare
+- Nameservers: gracie.ns.cloudflare.com, sage.ns.cloudflare.com
 
 ## DNS Records For GitHub Pages
 
@@ -37,6 +38,12 @@ For www:
 
 - CNAME  www  golyalaszlo93-cloud.github.io
 
+Cloudflare notes:
+
+- Set GitHub Pages website records to DNS only while GitHub verifies the domain. After HTTPS is issued, proxying can stay off for the simplest setup.
+- Do not add any A/AAAA records other than the GitHub Pages records above for the apex/root domain.
+- If Cloudflare already has parked-domain records, remove them before adding the GitHub Pages records.
+
 ## Email
 
 Recommended business email:
@@ -57,3 +64,8 @@ SPF:
 - TXT  @  v=spf1 include:_spf.google.com ~all
 
 DKIM and DMARC should be added after Google Workspace generates the DKIM key.
+
+Cloudflare Email Routing fallback:
+
+- If Google Workspace is not purchased yet, use Cloudflare Email Routing to forward info@levelline-construction.com to golyalaszlo993@gmail.com.
+- Email Routing can receive mail only; sending as info@levelline-construction.com still needs Google Workspace, Microsoft 365, Zoho, or another mail provider.
