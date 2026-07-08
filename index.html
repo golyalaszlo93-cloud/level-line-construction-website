@@ -28,14 +28,27 @@
         <span><strong>LevelLine Construction</strong><small>High-end finish carpentry</small></span>
       </a>
       <nav aria-label="Main navigation">
-        <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="./service-area.html">Service Area</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#featured">Featured</a>
-        <a href="#contact">Contact</a>
+        <a href="#about" data-i18n="navAbout">About</a>
+        <a href="#services" data-i18n="navServices">Services</a>
+        <a href="./service-area.html" data-i18n="navServiceArea">Service Area</a>
+        <a href="#portfolio" data-i18n="navPortfolio">Portfolio</a>
+        <a href="#featured" data-i18n="navFeatured">Featured</a>
+        <a href="#join" data-i18n="navJoin">Join Our Team</a>
+        <a href="#contact" data-i18n="navContact">Contact</a>
       </nav>
-      <a class="header-cta" href="#contact">Request a Quote</a>
+      <div class="header-tools">
+        <label class="language-switcher" for="language-select">
+          <span data-i18n="languageLabel">Language</span>
+          <select id="language-select" aria-label="Select language">
+            <option value="en">English</option>
+            <option value="es">Español</option>
+            <option value="hu">Magyar</option>
+            <option value="de">Deutsch</option>
+            <option value="fr">Français</option>
+          </select>
+        </label>
+        <a class="header-cta" href="#contact" data-i18n="requestQuote">Request a Quote</a>
+      </div>
     </header>
 
     <main id="top">
@@ -44,19 +57,41 @@
         <div class="hero-shade"></div>
         <div class="hero-content reveal">
           <img class="hero-logo" src="./assets/level-line-logo.png" alt="LevelLine Construction LLC">
-          <p class="eyebrow">Tampa to Englewood finish carpentry - interior trim - custom detail work</p>
-          <h1 id="hero-title">Luxury Gulf Coast finish carpentry built with precision, restraint, and pride.</h1>
-          <p class="hero-copy">LevelLine Construction LLC creates refined interior trim, accent walls, doors, baseboards, crown molding, stairs, handrails, and custom finish work for clients from Tampa and Bradenton through Sarasota, Venice, North Port, and Englewood.</p>
+          <p class="eyebrow" data-i18n="heroEyebrow">Tampa to Englewood finish carpentry - interior trim - custom detail work</p>
+          <h1 id="hero-title" data-i18n="heroTitle">Luxury Gulf Coast finish carpentry built with precision, restraint, and pride.</h1>
+          <p class="hero-copy" data-i18n="heroCopy">LevelLine Construction LLC creates refined interior trim, accent walls, doors, baseboards, crown molding, stairs, handrails, and custom finish work for clients from Tampa and Bradenton through Sarasota, Venice, North Port, and Englewood.</p>
           <div class="hero-actions">
-            <a class="button primary" href="#contact">Request a Quote</a>
-            <a class="button ghost" href="#portfolio">View Projects</a>
+            <a class="button primary" href="#contact" data-i18n="customerPathButton">I Need Finish Carpentry</a>
+            <a class="button ghost" href="#join" data-i18n="crewPathButton">I Want to Join the Team</a>
           </div>
         </div>
         <aside class="availability-panel reveal">
-          <span>Premium finish work</span>
-          <strong>Custom interiors, trim, stairs, and detail carpentry</strong>
-          <p>Clean layouts, tight execution, reliable scheduling, and a professional jobsite standard.</p>
+          <span data-i18n="heroPanelKicker">Two ways to work with us</span>
+          <strong data-i18n="heroPanelTitle">Built for clients, builders, and finish carpentry crews.</strong>
+          <p data-i18n="heroPanelCopy">Request project help or apply to join our network of reliable finish crews.</p>
         </aside>
+      </section>
+
+      <section class="section audience-section" id="start">
+        <div class="section-heading reveal">
+          <p class="eyebrow" data-i18n="audienceEyebrow">Choose your path</p>
+          <h2 data-i18n="audienceTitle">One company, two front doors.</h2>
+          <p data-i18n="audienceCopy">LevelLine serves homeowners, builders, and contractors who need finish work completed cleanly. We also hear from skilled crews who want steady trim carpentry opportunities.</p>
+        </div>
+        <div class="audience-grid">
+          <article class="audience-card reveal">
+            <span data-i18n="customerCardKicker">Customers & builders</span>
+            <h3 data-i18n="customerCardTitle">Need premium finish carpentry?</h3>
+            <p data-i18n="customerCardCopy">Send photos, plans, project location, timeline, and the kind of finish detail you need built.</p>
+            <a class="button primary" href="#contact" data-i18n="requestQuote">Request a Quote</a>
+          </article>
+          <article class="audience-card reveal">
+            <span data-i18n="crewCardKicker">Crews & installers</span>
+            <h3 data-i18n="crewCardTitle">Want to work with LevelLine?</h3>
+            <p data-i18n="crewCardCopy">Tell us where you are located, your experience, tools, crew size, availability, and recent work.</p>
+            <a class="button ghost" href="#join" data-i18n="startApplication">Start Application</a>
+          </article>
+        </div>
       </section>
 
       <section class="slideshow-section" aria-label="Featured project slideshow">
@@ -74,11 +109,11 @@
 
       <section class="section about-section" id="about">
         <div class="section-heading reveal">
-          <p class="eyebrow">About us</p>
-          <h2>Craftsmanship that respects the home, the schedule, and the final detail.</h2>
+          <p class="eyebrow" data-i18n="aboutEyebrow">About us</p>
+          <h2 data-i18n="aboutTitle">Craftsmanship that respects the home, the schedule, and the final detail.</h2>
         </div>
         <div class="about-grid">
-          <p class="lead reveal">LevelLine Construction LLC is built for high-end interior work where clean execution matters. We focus on premium finish carpentry, custom details, and construction work that needs a disciplined eye from layout to final walk-through.</p>
+          <p class="lead reveal" data-i18n="aboutLead">LevelLine Construction LLC is built for high-end interior work where clean execution matters. We focus on premium finish carpentry, custom details, and construction work that needs a disciplined eye from layout to final walk-through.</p>
           <div class="about-points reveal">
             <article><span>01</span><strong>Craftsmanship</strong><p>Measured layouts, clean reveals, sharp cuts, and finish details that elevate the whole space.</p></article>
             <article><span>02</span><strong>Reliability</strong><p>Clear scope, practical scheduling, respectful communication, and a clean jobsite standard.</p></article>
@@ -89,8 +124,8 @@
 
       <section class="section services" id="services">
         <div class="section-heading reveal">
-          <p class="eyebrow">Services</p>
-          <h2>Premium Gulf Coast construction and finish carpentry services.</h2>
+          <p class="eyebrow" data-i18n="servicesEyebrow">Services</p>
+          <h2 data-i18n="servicesTitle">Premium Gulf Coast construction and finish carpentry services.</h2>
         </div>
         <div class="service-grid">
           <article class="service-card reveal"><span>01</span><h3>Interior Trim</h3><p>Casing, wall trim, chair rail, panel details, room upgrades, and premium finish corrections.</p></article>
@@ -104,11 +139,11 @@
 
       <section class="section about-section" id="service-area">
         <div class="section-heading reveal">
-          <p class="eyebrow">Service area</p>
-          <h2>Finish carpentry from Tampa to Englewood.</h2>
+          <p class="eyebrow" data-i18n="serviceAreaEyebrow">Service area</p>
+          <h2 data-i18n="serviceAreaTitle">Finish carpentry from Tampa to Englewood.</h2>
         </div>
         <div class="about-grid">
-          <p class="lead reveal">LevelLine Construction LLC serves Florida's Gulf Coast for trim carpentry, interior doors, baseboards, crown molding, accent walls, stairs, handrails, and custom finish work. Core service areas include Tampa, St. Petersburg, Clearwater, Brandon, Riverview, Parrish, Palmetto, Bradenton, Lakewood Ranch, Sarasota, Osprey, Nokomis, Venice, North Port, and Englewood.</p>
+          <p class="lead reveal" data-i18n="serviceAreaLead">LevelLine Construction LLC serves Florida's Gulf Coast for trim carpentry, interior doors, baseboards, crown molding, accent walls, stairs, handrails, and custom finish work. Core service areas include Tampa, St. Petersburg, Clearwater, Brandon, Riverview, Parrish, Palmetto, Bradenton, Lakewood Ranch, Sarasota, Osprey, Nokomis, Venice, North Port, and Englewood.</p>
           <div class="about-points reveal">
             <article><span>North</span><strong>Tampa Bay</strong><p>Tampa, St. Petersburg, Clearwater, Brandon, Riverview, Parrish, Palmetto, and nearby communities.</p></article>
             <article><span>Core</span><strong>Bradenton & Sarasota</strong><p>Bradenton, Lakewood Ranch, Sarasota, Siesta Key, Longboat Key, and surrounding neighborhoods.</p></article>
@@ -119,19 +154,19 @@
 
       <section class="portfolio-section" id="portfolio">
         <div class="section-heading reveal">
-          <p class="eyebrow">Portfolio showcase</p>
-          <h2>Twenty selected images. Full gallery one click away.</h2>
-          <p>A concise showcase keeps the homepage premium and easy to scan. Visitors can open the full categorized gallery when they want to study every project photo.</p>
+          <p class="eyebrow" data-i18n="portfolioEyebrow">Portfolio showcase</p>
+          <h2 data-i18n="portfolioTitle">Twenty selected images. Full gallery one click away.</h2>
+          <p data-i18n="portfolioCopy">A concise showcase keeps the homepage premium and easy to scan. Visitors can open the full categorized gallery when they want to study every project photo.</p>
         </div>
         <div class="portfolio-controls" id="portfolio-controls" aria-label="Portfolio categories"></div>
         <div class="masonry-grid showcase-grid" id="portfolio-grid" data-gallery-mode="showcase" aria-live="polite"></div>
-        <div class="portfolio-actions reveal"><a class="button primary" href="./gallery.html">View Full Gallery</a></div>
+        <div class="portfolio-actions reveal"><a class="button primary" href="./gallery.html" data-i18n="viewGallery">View Full Gallery</a></div>
       </section>
 
       <section class="section featured-section" id="featured">
         <div class="section-heading reveal">
-          <p class="eyebrow">Featured projects</p>
-          <h2>Selected work with the strongest visual impact.</h2>
+          <p class="eyebrow" data-i18n="featuredEyebrow">Featured projects</p>
+          <h2 data-i18n="featuredTitle">Selected work with the strongest visual impact.</h2>
         </div>
         <div class="featured-grid">
           <article class="featured-card large reveal"><img src="./assets/gallery/accent-wall-14.jpg" alt="Modern slat feature wall"><div><span>Featured 01</span><h3>Dark slat fireplace wall</h3><p>A modern feature wall with strong vertical rhythm and premium contrast.</p></div></article>
@@ -142,8 +177,8 @@
 
       <section class="section why-section">
         <div class="section-heading reveal">
-          <p class="eyebrow">Why choose us</p>
-          <h2>Luxury work needs disciplined execution.</h2>
+          <p class="eyebrow" data-i18n="whyEyebrow">Why choose us</p>
+          <h2 data-i18n="whyTitle">Luxury work needs disciplined execution.</h2>
         </div>
         <div class="why-grid">
           <article class="reveal"><i>✦</i><h3>Premium eye</h3><p>We plan the visual lines before cutting, fastening, or closing up the detail.</p></article>
@@ -155,8 +190,8 @@
 
       <section class="testimonials-section" aria-label="Testimonials">
         <div class="section-heading reveal">
-          <p class="eyebrow">Client standard</p>
-          <h2>What clients should feel when the job is done.</h2>
+          <p class="eyebrow" data-i18n="testimonialsEyebrow">Client standard</p>
+          <h2 data-i18n="testimonialsTitle">What clients should feel when the job is done.</h2>
         </div>
         <div class="testimonial-slider" id="testimonial-slider">
           <article class="testimonial is-active"><p>“The trim work made the entire room feel complete. Clean lines, sharp corners, and a professional finish.”</p><strong>Homeowner project</strong></article>
@@ -168,23 +203,52 @@
 
       <section class="contact-section" id="contact">
         <div class="contact-copy reveal">
-          <p class="eyebrow">Request a quote</p>
-          <h2>Bring the photos, plans, or idea. We will shape the finish.</h2>
-          <p>Tell us what kind of room, trim, stair, door, wall, or custom detail you want built. Include photos or measurements where possible so the first conversation can be specific.</p>
-          <div class="contact-card"><strong>Company email</strong><span>info@levelline-construction.com</span></div>
+          <p class="eyebrow" data-i18n="quoteEyebrow">Request a quote</p>
+          <h2 data-i18n="quoteTitle">Bring the photos, plans, or idea. We will shape the finish.</h2>
+          <p data-i18n="quoteCopy">Tell us what kind of room, trim, stair, door, wall, or custom detail you want built. Include photos or measurements where possible so the first conversation can be specific.</p>
+          <div class="contact-card"><strong data-i18n="companyEmail">Company email</strong><span>info@levelline-construction.com</span></div>
         </div>
         <form class="estimate-form reveal" aria-label="LevelLine Construction quote request">
-          <label>Full name<input name="name" placeholder="Your name" required></label>
-          <label>Phone or email<input name="contact" placeholder="Best contact" required></label>
+          <label><span data-i18n="fullName">Full name</span><input name="name" placeholder="Your name" data-i18n-placeholder="yourName" required></label>
+          <label><span data-i18n="phoneOrEmail">Phone or email</span><input name="contact" placeholder="Best contact" data-i18n-placeholder="bestContact" required></label>
           <div class="form-row">
-            <label>Project type<select name="projectType"><option>Interior Trim</option><option>Doors</option><option>Baseboards</option><option>Crown Molding</option><option>Stairs / Handrails</option><option>Custom Work</option><option>Before & After / Remodel</option></select></label>
-            <label>Timeline<select name="timeline"><option>As soon as possible</option><option>This month</option><option>1-3 months</option><option>Planning phase</option></select></label>
+            <label><span data-i18n="projectType">Project type</span><select name="projectType"><option>Interior Trim</option><option>Doors</option><option>Baseboards</option><option>Crown Molding</option><option>Stairs / Handrails</option><option>Custom Work</option><option>Before & After / Remodel</option></select></label>
+            <label><span data-i18n="timeline">Timeline</span><select name="timeline"><option>As soon as possible</option><option>This month</option><option>1-3 months</option><option>Planning phase</option></select></label>
           </div>
-          <label>Project location<input name="location" placeholder="City / neighborhood"></label>
-          <label>Photos or plans<input name="photos" type="file" accept="image/*,.pdf" multiple></label>
-          <label>Message<textarea name="message" rows="5" placeholder="Rooms, measurements, materials, inspiration photos, stairs/trim details, and anything you want matched."></textarea></label>
-          <button class="button primary full" type="submit">Prepare Quote Request</button>
-          <p class="form-note">Demo form: opens a prepared email until the domain email and contact backend are connected.</p>
+          <label><span data-i18n="projectLocation">Project location</span><input name="location" placeholder="City / neighborhood" data-i18n-placeholder="cityNeighborhood"></label>
+          <label><span data-i18n="photosPlans">Photos or plans</span><input name="photos" type="file" accept="image/*,.pdf" multiple></label>
+          <label><span data-i18n="message">Message</span><textarea name="message" rows="5" placeholder="Rooms, measurements, materials, inspiration photos, stairs/trim details, and anything you want matched." data-i18n-placeholder="quoteMessagePlaceholder"></textarea></label>
+          <button class="button primary full" type="submit" data-i18n="prepareQuote">Prepare Quote Request</button>
+          <p class="form-note" data-i18n="formNote">Demo form: opens a prepared email until the domain email and contact backend are connected.</p>
+        </form>
+      </section>
+
+      <section class="crew-section" id="join">
+        <div class="section-heading reveal">
+          <p class="eyebrow" data-i18n="crewEyebrow">Join our team</p>
+          <h2 data-i18n="crewTitle">Finish carpentry crew questionnaire.</h2>
+          <p data-i18n="crewCopy">Answer the questions below so we can understand your location, crew capacity, finish carpentry experience, tools, availability, and jobsite readiness.</p>
+        </div>
+        <form class="crew-form reveal" aria-label="LevelLine Construction crew application">
+          <label><span data-i18n="crewName">Name / company name</span><input name="name" placeholder="Your name or crew/company name" data-i18n-placeholder="crewNamePlaceholder" required></label>
+          <label><span data-i18n="crewContact">Phone or email</span><input name="contact" placeholder="Best contact" data-i18n-placeholder="bestContact" required></label>
+          <label><span data-i18n="q1">1. What city are you currently located in?</span><input name="city" placeholder="City and state" data-i18n-placeholder="cityState"></label>
+          <label><span data-i18n="q2">2. Are you willing to travel or relocate if needed?</span><textarea name="travel" rows="2"></textarea></label>
+          <label><span data-i18n="q3">3. Do you have your own reliable transportation?</span><textarea name="transportation" rows="2"></textarea></label>
+          <label><span data-i18n="q4">4. Do you have your own finish carpentry tools? If so, what tools do you have?</span><textarea name="tools" rows="3"></textarea></label>
+          <label><span data-i18n="q5">5. Do you work alone, or do you have a crew? If you have a crew, how many people are on your team?</span><textarea name="crewSize" rows="3"></textarea></label>
+          <label><span data-i18n="q6">6. How many years of experience do you have in finish trim carpentry?</span><input name="experience" placeholder="Years of experience" data-i18n-placeholder="yearsExperience"></label>
+          <label><span data-i18n="q7">7. What type of work have you done? (Baseboards, crown molding, door and window casing, hanging doors, hardware, stairs, cabinets, punch work, etc.)</span><textarea name="workTypes" rows="4"></textarea></label>
+          <label><span data-i18n="q8">8. Are you able to read blueprints and work independently?</span><textarea name="blueprints" rows="2"></textarea></label>
+          <label><span data-i18n="q9">9. Have you worked in new residential construction before?</span><textarea name="newConstruction" rows="2"></textarea></label>
+          <label><span data-i18n="q10">10. Are you legally authorized to work in the United States?</span><textarea name="workAuthorization" rows="2"></textarea></label>
+          <label><span data-i18n="q11">11. When would you be available to start?</span><input name="startDate" placeholder="Start date or availability" data-i18n-placeholder="startAvailability"></label>
+          <label><span data-i18n="q12">12. What is your expected hourly rate or daily pay?</span><input name="pay" placeholder="Hourly rate or daily pay" data-i18n-placeholder="payPlaceholder"></label>
+          <label><span data-i18n="q13">13. Could you send me a few pictures of your recent work?</span><input name="workPhotos" type="file" accept="image/*,.pdf" multiple></label>
+          <label><span data-i18n="q14">14. Do you have any references from previous employers or contractors?</span><textarea name="references" rows="3"></textarea></label>
+          <label><span data-i18n="q15">15. For a standard 2,000 sq. ft. new construction home, how many houses can you and your crew complete per day or per week?</span><textarea name="productionCapacity" rows="3"></textarea></label>
+          <button class="button primary full" type="submit" data-i18n="prepareCrewApplication">Prepare Crew Application</button>
+          <p class="form-note" data-i18n="crewFormNote">This opens a prepared email. Attach work photos manually if your email app does not include uploads automatically.</p>
         </form>
       </section>
     </main>
@@ -196,8 +260,8 @@
     </div>
 
     <footer class="site-footer">
-      <div><strong>LevelLine Construction LLC</strong><p>High-end construction and finish carpentry from Tampa to Englewood.</p></div>
-          <div><a href="./service-area.html">Tampa to Englewood Service Area</a><a href="./sarasota-trim-carpentry.html">Sarasota Trim Carpentry</a><a href="mailto:info@levelline-construction.com">info@levelline-construction.com</a><a href="#contact">Request a Quote</a></div>
+      <div><strong>LevelLine Construction LLC</strong><p data-i18n="footerCopy">High-end construction and finish carpentry from Tampa to Englewood.</p></div>
+          <div><a href="./service-area.html" data-i18n="footerServiceArea">Tampa to Englewood Service Area</a><a href="./sarasota-trim-carpentry.html" data-i18n="footerSarasota">Sarasota Trim Carpentry</a><a href="mailto:info@levelline-construction.com">info@levelline-construction.com</a><a href="#contact" data-i18n="requestQuote">Request a Quote</a></div>
     </footer>
     <script src="./script.js"></script>
   </body>
